@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage
+    x:Class="MauiTabTestApp.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage
+        Title="Details"
+        Padding="0"
+        HideSoftInputOnTapped="True">
+        <StackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Details first label" />
+            </HorizontalStackLayout>
+            <CollectionView SelectionMode="Single">
+                <CollectionView.Header>
+                    <Label Text="Test Details Test label" />
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="Details DataTemplate Label" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.Footer>
+                    <Label Text="Details Footer test" />
+                </CollectionView.Footer>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage
+        Title="Info"
+        Padding="0"
+        HideSoftInputOnTapped="True">
+        <StackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Testlabel" />
+            </HorizontalStackLayout>
+            <CollectionView SelectionMode="Single">
+                <CollectionView.Header>
+                    <Label Text="info Details Exercise label" />
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="info Test 123" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.Footer>
+                    <Label Text="info Footer test" />
+                </CollectionView.Footer>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage
+        Title="Test"
+        Padding="0"
+        HideSoftInputOnTapped="True">
+        <StackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Testlabel" />
+            </HorizontalStackLayout>
+            <CollectionView SelectionMode="Single">
+                <CollectionView.Header>
+                    <Label Text="Test Details Exercise label" />
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="Test Test 123" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.Footer>
+                    <Label Text="Test Footer test" />
+                </CollectionView.Footer>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage
+        Title="Document"
+        Padding="0"
+        HideSoftInputOnTapped="True">
+        <StackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Testlabel" />
+            </HorizontalStackLayout>
+            <CollectionView SelectionMode="Single">
+                <CollectionView.Header>
+                    <Label Text="Document Exercise label" />
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="Document Test 123" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.Footer>
+                    <Label Text="Document Footer test" />
+                </CollectionView.Footer>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage
+        Title="Exercise"
+        Padding="0"
+        HideSoftInputOnTapped="True">
+        <StackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Testlabel" />
+            </HorizontalStackLayout>
+            <CollectionView SelectionMode="Single">
+                <CollectionView.Header>
+                    <Label Text="Test header Exercise label" />
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="Test 123" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.Footer>
+                    <Button Text="Memo Footer test" />
+                </CollectionView.Footer>
+            </CollectionView>
+            <Button Text="Memo Footer test" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage
+        Title="Memo"
+        Padding="0"
+        HideSoftInputOnTapped="True">
+        <StackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Memo Testlabel" />
+            </HorizontalStackLayout>
+            <CollectionView SelectionMode="Single">
+                <CollectionView.Header>
+                    <Label Text="Memo header Exercise label" />
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="Memo 123" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.Footer>
+                    <Button Text="Memo Footer test" />
+                </CollectionView.Footer>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage
+        Title="LastTab"
+        Padding="0"
+        HideSoftInputOnTapped="True">
+        <StackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Last Tab Top Page" />
+            </HorizontalStackLayout>
+            <CollectionView SelectionMode="Single">
+                <CollectionView.Header>
+                    <Label Text="Last Tab header Exercise label" />
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="Last Tab 123" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.Footer>
+                    <Button Text="Last Tab Footer test" />
+                </CollectionView.Footer>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>
